@@ -19,6 +19,8 @@ body {
   color: gray;
   align-items: center;
   margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 li {
@@ -81,8 +83,36 @@ a {
 }
 
 /* searchbar */
+#search-div {
+  margin-top: 27px;
 
+}
 
+#search-div input {
+  width: 600px;
+  border-radius: 30px;
+  border: 1px rgb(223, 225, 229) solid;
+  height: 45px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right:50px;
+  font-size: 16px;
+}
 
+/* media queries */
+@media (max-width: 656px) {
+  #search-div input {
+    width: 90vw;
+  }
+  body {
+    /* temp */
+    background: gray;
+  }
+}
 
+/* notes
+
+1. Add 'search' icon in searchbar
+
+*/
 

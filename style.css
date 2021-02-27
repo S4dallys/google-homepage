@@ -1,3 +1,52 @@
 * {
   box-sizing: border-box;
 }
+
+div, nav, footer {
+  /* temp */
+  border: solid;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: gray;
+  align-items: center;
+  margin: 0;
+  /* temp */
+  border: black solid;
+}
+
+
+
+#nav {
+  align-self: flex-end;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+#nav li {
+  border: solid;
+}
+
+/* General Styles */
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+

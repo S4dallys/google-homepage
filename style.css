@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-div, nav, footer {
-  /* temp */
-  border: solid;
-}
-
 body {
   background-color: white;
   display: flex;
@@ -15,26 +10,34 @@ body {
   color: gray;
   align-items: center;
   margin: 0;
-  /* temp */
-  border: black solid;
 }
 
 
 
 #nav {
   align-self: flex-end;
+  padding: 0;
 }
 
 #nav ul {
+  position: relative;
+  right: 16px;
+  font-size: 13px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border: solid;
+  width: 230px;
 }
 
-#nav li {
-  border: solid;
+#apps-icon {
+  position: relative;
+  top: 1px;
+  font-size: 24px;
+}
+
+#profile {
+  border-radius: 50%;
 }
 
 /* General Styles */

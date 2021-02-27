@@ -1,3 +1,12 @@
+/* General Styles */
+:root {
+  --nav-color: rgba(0, 0, 0, 0.87);
+  --under-color: rgb(60, 64, 67);
+  --under-under-color: rgb(34, 34, 34);
+  --footer-color: rgba(0, 0, 0, 0.54);
+  --link-color: rgb(26, 13, 171);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,11 +21,22 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
+/* top nav bar */
 #nav {
   align-self: flex-end;
   padding: 0;
+  color: var(--nav-color);
 }
 
 #nav ul {
@@ -30,26 +50,39 @@ body {
   width: 230px;
 }
 
+#nav li:hover {
+  text-decoration: underline;
+}
+
+#apps-icon:hover, #profile:hover {
+  box-shadow: 0 0 0 8px rgba(60,64,67,0.08);
+  background-color: rgba(60,64,67,0.08);
+}
+
+#profile:hover {
+  box-shadow: 0 0 0 5px rgba(60,64,67,0.08);
+}
+
 #apps-icon {
   position: relative;
   top: 1px;
   font-size: 24px;
+  color: rgb(95, 99, 104);
+  border-radius: 50%;
 }
 
 #profile {
   border-radius: 50%;
 }
 
-/* General Styles */
-li {
-  list-style-type: none;
-  display: inline;
+/* google logo image */
+#image-div {
+  margin-top: 20vh;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+/* searchbar */
+
+
 
 
 

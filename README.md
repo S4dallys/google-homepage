@@ -23,4 +23,6 @@ So yeah!
 Excited for what js has to offer, 
 -s4dallys
 
+[TheOdinProject's site!](https://www.theodinproject.com)
+
 

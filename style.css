@@ -95,14 +95,10 @@ a {
 }
 
 #close-icon {
-  visibility: hidden;
+  visibility: visible;
   position: relative;
   top: 6px;
   right: 43px;
-}
-
-#search-div input:focus ~ #close-icon {
-  visibility: visible;
 }
 
 #search-div input {
@@ -114,6 +110,8 @@ a {
   padding-left: 50px;
   padding-right:50px;
   font-size: 16px;
+  padding-bottom: 4px;
+  
 }
 
 #search-div input:hover {

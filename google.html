@@ -27,9 +27,11 @@
 
     <div id="search-div">
         <form action="">
-            <input type="text" title="Search" name="search">
+            <input type="text" title="Search" name="search" id="myInput">
             <span class="material-icons" id="search-icon">search</span>
-            <span class="material-icons" id="close-icon">clear</span>
+            <a onclick="document.getElementById('myInput').value=''" id="close-icon" href="#">
+                <span class="material-icons">clear</span>
+            </a>
         </form>
     </div>
 

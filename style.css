@@ -33,6 +33,10 @@ a {
   color: inherit;
 }
 
+input[type="text"]:focus {
+  outline: none !important;
+}
+
 
 /* top nav bar */
 #nav {
@@ -218,9 +222,5 @@ a {
   }
 }
 
-/* notes
 
-1. Add 'search' and 'x' icons to searchbar using materials font
-
-*/
 
